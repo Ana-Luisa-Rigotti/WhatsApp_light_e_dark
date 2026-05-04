@@ -10,4 +10,8 @@
     <string name="ultima_msg_contato_um">Cara, me ajuda, atualiza ai pro Windows\n11 logo</string>
     <string name="horario_msg_um">9:41</string>
     <string name="notificacoes_msg_um">11</string>
+
+    <string name="nome_contato_dois">Linus Tolwards</string>
+    <string name="ultima_msg_contato_dois">Essa tua interface está bonita... mas cadê\no commit? Não vi push nenhum.</string>
+    <string name="horario_msg_dois">9:11</string>
 </resources>

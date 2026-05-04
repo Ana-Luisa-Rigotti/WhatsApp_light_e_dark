@@ -245,6 +245,7 @@
         android:layout_height="wrap_content"
         android:text="@string/ultima_msg_contato_um"
         android:textColor="@color/cor_ultima_mensagem"
+        android:textSize="13sp"
         app:layout_constraintStart_toStartOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/textView4">
 
@@ -291,16 +292,87 @@
     </TextView>
 
     <View
+        android:id="@+id/view7"
         android:layout_width="0dp"
         android:layout_height="1dp"
         android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="15dp"
-        android:layout_marginTop="22dp"
         android:background="@drawable/forma_oval"
         android:backgroundTint="@color/cor_separacao"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+    </View>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:background="@drawable/circulo_fotos"
+        android:layout_marginTop="15dp"
+
+        android:backgroundTint="@color/white"
+        android:clipToOutline="true"
+        android:scaleType="centerCrop"
+
+        android:src="@drawable/pinguim_linux"
+        app:layout_constraintStart_toStartOf="@+id/view7"
+        app:layout_constraintTop_toBottomOf="@+id/view7">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/nome_contato_dois"
+        android:textColor="@color/cor_titulo"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/view7">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ultima_msg_contato_dois"
+        android:textColor="@color/cor_ultima_mensagem"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/horario_msg_dois"
+        android:textColor="@color/cor_titulo"
+        android:textSize="15sp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView5">
+
+    </TextView>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/forma_oval"
+        android:backgroundTint="@color/cor_separacao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4">
 
     </View>
 
