@@ -179,13 +179,14 @@
     </TextView>
 
     <TextView
+        android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
         android:text="@string/numero_arquivado"
+        android:textColor="@color/cor_titulo"
         android:textSize="14sp"
         android:textStyle="bold"
-        android:textColor="@color/cor_titulo"
         app:layout_constraintBottom_toBottomOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="@+id/view4"
         app:layout_constraintTop_toTopOf="@+id/textView3">
@@ -255,12 +256,13 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
+
         android:text="@string/horario_msg_um"
         android:textColor="@color/cor_verde"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView4"
-        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintEnd_toEndOf="@+id/view5"
         app:layout_constraintTop_toTopOf="@+id/textView4">
 
     </TextView>
@@ -313,7 +315,6 @@
         android:background="@drawable/circulo_fotos"
         android:layout_marginTop="15dp"
 
-        android:backgroundTint="@color/white"
         android:clipToOutline="true"
         android:scaleType="centerCrop"
 
@@ -355,19 +356,21 @@
         android:text="@string/horario_msg_dois"
         android:textColor="@color/cor_titulo"
         android:textSize="15sp"
-        android:layout_marginEnd="15dp"
+
         app:layout_constraintBottom_toBottomOf="@+id/textView5"
-        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintEnd_toEndOf="@+id/view7"
         app:layout_constraintTop_toTopOf="@+id/textView5">
 
     </TextView>
 
     <View
+        android:id="@+id/view8"
         android:layout_width="0dp"
         android:layout_height="1dp"
         android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
         android:background="@drawable/forma_oval"
         android:backgroundTint="@color/cor_separacao"
         app:layout_constraintEnd_toEndOf="parent"
@@ -375,5 +378,357 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView4">
 
     </View>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/circulo_fotos"
+        android:clipToOutline="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/elon"
+        app:layout_constraintStart_toStartOf="@+id/view8"
+        app:layout_constraintTop_toBottomOf="@+id/view8">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/nome_contato_tres"
+        android:textColor="@color/cor_titulo"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/view8">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ultima_msg_contato_tres"
+        android:textColor="@color/cor_ultima_mensagem"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/horario_msg_tres"
+        android:textColor="@color/cor_titulo"
+        android:textSize="15sp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+
+        app:layout_constraintEnd_toEndOf="@+id/view8"
+        app:layout_constraintTop_toTopOf="@+id/textView7">
+
+    </TextView>
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/forma_oval"
+        android:backgroundTint="@color/cor_separacao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5">
+
+    </View>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/circulo_fotos"
+
+        android:clipToOutline="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mae"
+        app:layout_constraintStart_toStartOf="@+id/view9"
+        app:layout_constraintTop_toBottomOf="@+id/view9">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/nome_contato_quatro"
+        android:textColor="@color/cor_titulo"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/view9">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ultima_msg_contato_quatro"
+        android:textColor="@color/cor_ultima_mensagem"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/horario_msg_quatro"
+        android:textColor="@color/cor_titulo"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView8"
+
+        app:layout_constraintEnd_toEndOf="@+id/view9"
+        app:layout_constraintTop_toTopOf="@+id/textView8">
+
+    </TextView>
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/forma_oval"
+        android:backgroundTint="@color/cor_separacao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6">
+
+    </View>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/circulo_fotos"
+        android:clipToOutline="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/zuck"
+        app:layout_constraintStart_toStartOf="@+id/view10"
+        app:layout_constraintTop_toBottomOf="@+id/view10">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/nome_contato_cinco"
+        android:textColor="@color/cor_titulo"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/view10">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ultima_msg_contato_cinco"
+        android:textColor="@color/cor_ultima_mensagem"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/horario_msg_cinco"
+        android:textColor="@color/cor_titulo"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="@+id/view10"
+        app:layout_constraintTop_toTopOf="@+id/textView10">
+
+    </TextView>
+
+    <View
+        android:id="@+id/view11"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/forma_oval"
+        android:backgroundTint="@color/cor_separacao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7">
+
+    </View>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/atualizacoes"
+        app:tint="@color/cor_simbolos_inferiores"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintEnd_toStartOf="@+id/imageView8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view11"
+        app:layout_constraintVertical_bias="0.95">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/atualizacoes"
+        android:textColor="@color/cor_titulo"
+        android:textSize="13sp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        android:layout_marginBottom="20dp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ligacoes"
+        app:tint="@color/cor_simbolos_inferiores"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintEnd_toStartOf="@+id/imageView10"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/view11"
+        app:layout_constraintVertical_bias="0.95">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ligacoes"
+        android:textColor="@color/cor_titulo"
+        android:textSize="13sp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="@+id/imageView8">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/contatos"
+        app:tint="@color/cor_simbolos_inferiores"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toStartOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/view11"
+        app:layout_constraintVertical_bias="0.95">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contatos"
+        android:textColor="@color/cor_titulo"
+        android:textSize="13sp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintStart_toStartOf="@+id/imageView10">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/conversas"
+        app:tint="@color/cor_simbolos_inferiores"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toStartOf="@+id/imageView12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/view11"
+        app:layout_constraintVertical_bias="0.95">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/conversas"
+        android:textColor="@color/cor_titulo"
+        android:textSize="13sp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintStart_toStartOf="@+id/imageView11">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/configuracoes"
+        app:tint="@color/cor_simbolos_inferiores"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/view11"
+        app:layout_constraintVertical_bias="0.95">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/configuracoes"
+        android:textColor="@color/cor_titulo"
+        android:textSize="13sp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintStart_toStartOf="@+id/imageView12">
+
+    </TextView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

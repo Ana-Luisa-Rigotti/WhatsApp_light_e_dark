@@ -14,4 +14,23 @@
     <string name="nome_contato_dois">Linus Tolwards</string>
     <string name="ultima_msg_contato_dois">Essa tua interface está bonita... mas cadê\no commit? Não vi push nenhum.</string>
     <string name="horario_msg_dois">9:11</string>
+
+    <string name="nome_contato_tres">Elonzinho</string>
+    <string name="ultima_msg_contato_tres">Se esse app não rodar offline em Marte,\nnem me chama pra testar</string>
+    <string name="horario_msg_tres">8:58</string>
+
+    <string name="nome_contato_quatro">Mãe</string>
+    <string name="ultima_msg_contato_quatro">Já te falei pra você parar de andar\ncom essas amizades esquisitas</string>
+    <string name="horario_msg_quatro">8:30</string>
+
+    <string name="nome_contato_cinco">M.Zuck</string>
+    <string name="ultima_msg_contato_cinco">Mano, ce não vai atualizar pro windows\n11 pra agradar aquele baixinho não, ne?</string>
+    <string name="horario_msg_cinco">8:30</string>
+
+    <string name="atualizacoes">Updates</string>
+    <string name="ligacoes">Call</string>
+    <string name="contatos">Community</string>
+    <string name="conversas">Chats</string>
+    <string name="configuracoes">Settings</string>
+    
 </resources>
