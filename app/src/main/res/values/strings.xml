@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WhatsApp_light_e_dark</string>
+    <string name="chats">Chats</string>
+    <string name="tres_pontos">...</string>
+    <string name="texto_pesquisar">Ask Meta AI or Search</string>
+    <string name="arquivado">Archived</string>
+    <string name="numero_arquivado">5</string>
+
+    <string name="nome_contato_um">Bill Gates</string>
+    <string name="ultima_msg_contato_um">Cara, me ajuda, atualiza ai pro Windows\n11 logo</string>
+    <string name="horario_msg_um">9:41</string>
+    <string name="notificacoes_msg_um">11</string>
+</resources>

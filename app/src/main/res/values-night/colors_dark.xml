@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="cor_fundo">#FF000000</color>
+
+    <color name="cor_verde">#17953D</color>
+
+    <color name="cor_titulo">#FFFFFF</color>
+    <color name="cor_area_arredondada">#3F3F3F</color>
+    <color name="cor_camera">#939393</color>
+    <color name="cor_mais">#FF000000</color>
+    <color name="cor_lupa">#7E7E7E</color>
+    <color name="cor_texto_pesquisar">#C7B1B1B1</color>
+    <color name="cor_arquivado">#E7E7E7</color>
+
+    <color name="cor_separacao">#3E3E3E</color>
+    <color name="cor_ultima_mensagem">#818181</color>
+    <color name="cor_notif">#FF000000</color>
+</resources>
